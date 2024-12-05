@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Duo - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav class="sidebar">
+        <h1>Artistic Duo</h1>
+        <ul class="nav-links">
+            <li><a href="#" onclick="showSection('dashboard')">Dashboard</a></li>
+            <li><a href="#" onclick="showSection('about')">About Us</a></li>
+            <li><a href="#" onclick="showSection('major-art')">Major Artworks</a></li>
+            <li><a href="#" onclick="showSection('minor-art')">Minor Artworks</a></li>
+        </ul>
+    </nav>
+    
+        <main class="main-content">
+            <section id="dashboard" class="section active">
+                <div class="welcome-message">Welcome to Our Creative Space</div>
+                <p>Explore our collaborative art portfolio.</p>
+            </section>
+    
+            <section id="about" class="section">
+                <div class="creator-profile">
+                    <h2>Emm</h2>
+                    <p>Forte: Drawing.</p>
+                </div>
+                <div class="creator-profile">
+                    <h2>Nicole</h2>
+                    <p>Forte: Potato.</p>
+                </div>
+            </section>
+    
+            <section id="major-art" class="section">
+                <h2>Major Artwork</h2>
+                <div class="art-grid">
+                    <div class="art-piece">
+                        <img src="/api/placeholder/600/400" alt="Sample Picture">
+                        <div class="overlay">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div class="art-piece">
+                        <img src="/api/placeholder/600/400" alt="Sample Picture">
+                        <div class="overlay">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div class="art-piece">
+                        <img src="/api/placeholder/600/400" alt="Sample Picture">
+                        <div class="overlay">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="minor-art" class="section">
+                <h2>Minor Artworks</h2>
+                <div class="art-grid">
+                    <div class="art-piece">
+                        <img src="/api/placeholder/600/400" alt="Sample Picture">
+                        <div class="overlay">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div class="art-piece">
+                        <img src="/api/placeholder/600/400" alt="Sample Picture">
+                        <div class="overlay">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div class="art-piece">
+                        <img src="/api/placeholder/600/400" alt="Sample Picture">
+                        <div class="overlay">
+                            <h3>Title</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    <script src="site.js"></script>
+</body>
+</html>
