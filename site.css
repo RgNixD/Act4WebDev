@@ -73,7 +73,7 @@ body {
   display: block;
 }
 
-.dashboard {
+.home {
   text-align: center;
   padding: 2rem;
 }
@@ -84,7 +84,39 @@ body {
   margin-bottom: 2rem;
 }
 
-.creator-profile {
+.hero-image {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.creators-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem;
   background-color: white;
   padding: 2rem;
   border-radius: 15px;
@@ -93,8 +125,25 @@ body {
   transition: transform 0.3s ease;
 }
 
-.creator-profile:hover {
+.creators-container:hover {
   transform: translateY(-5px);
+}
+
+.creator {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+.creator img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
 .art-grid {
