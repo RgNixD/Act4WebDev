@@ -8,3 +8,10 @@ function showSection(sectionId) {
 function toggleMenu() {
   document.querySelector(".sidebar").classList.toggle("active");
 }
+
+document.querySelector(".contact-button").forEach((button) => {
+  button.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.href = button.href;
+  });
+});

@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artsy Duo</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav class="sidebar">
+      <h1>Artsy Enthusiasts</h1>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="big.html">Big Artworks</a></li>
+        <li><a href="mini.html">Mini Artworks</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <section id="about" class="section active">
+        <div class="banner top-banner slide-in-top">
+          <img src="/api/placeholder/1200/300" alt="Top Banner/Sketch" />
+        </div>
+
+        <div class="creators-container">
+          <div class="creator slide-in-left">
+            <img src="media/MePfp.png" alt="Creator Emmie" />
+            <div class="creator-profile">
+              <h3>Emm Katrina L. Caayao</h3>
+              <p>Forte: Drawing.</p>
+              <p>Responsible for the contents on this website.</p>
+            </div>
+          </div>
+
+          <div class="creator slide-in-right">
+            <img src="media/MetooPfp.jpg" alt="Creator Shai" />
+            <div class="creator-profile">
+              <h3>Shaira Nicole J. Basulgan</h3>
+              <p>Forte: Designing.</p>
+              <p>Responsible for the design on this website.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="banner bottom-banner slide-in-bottom">
+          <img src="/api/placeholder/1200/300" alt="Bottom Banner/Sketch" />
+        </div>
+      </section>
+    </main>
+
+    <script src="site.js"></script>
+  </body>
+</html>
